@@ -1,5 +1,5 @@
 // שומר את קבצי המסך בטלפון כדי שהאפליקציה תיפתח מיד. בקשות לשרת של גוגל לא נשמרות.
-const CACHE = 'pm-v1';
+const CACHE = 'pm-v2';
 const FILES = ['./', 'index.html', 'manifest.json', 'icon.svg', 'icon-180.png', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', e => {

@@ -1,41 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#5b8cff"/>
-      <stop offset="1" stop-color="#7a4dff"/>
-    </linearGradient>
-    <linearGradient id="pig" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffb3cf"/>
-      <stop offset="1" stop-color="#ff7fab"/>
-    </linearGradient>
-    <linearGradient id="coin" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffe27a"/>
-      <stop offset="1" stop-color="#f5b400"/>
-    </linearGradient>
-  </defs>
-  <rect width="512" height="512" fill="url(#bg)"/>
-  <circle cx="420" cy="90" r="120" fill="#fff" opacity=".08"/>
-  <!-- מטבע נופל -->
-  <g transform="translate(256 118) rotate(-12)">
-    <circle r="52" fill="url(#coin)" stroke="#d99a00" stroke-width="7"/>
-    <text y="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="58" fill="#b77d00">₪</text>
-  </g>
-  <!-- רגליים -->
-  <rect x="160" y="370" width="42" height="62" rx="16" fill="#ff7fab"/>
-  <rect x="300" y="370" width="42" height="62" rx="16" fill="#ff7fab"/>
-  <!-- זנב -->
-  <path d="M404 278c30-6 34 28 12 30-16 2-14-20 2-18" fill="none" stroke="#ff7fab" stroke-width="10" stroke-linecap="round"/>
-  <!-- גוף -->
-  <ellipse cx="250" cy="300" rx="160" ry="118" fill="url(#pig)"/>
-  <!-- אוזן -->
-  <path d="M168 210l-8-62 58 38z" fill="#ff7fab"/>
-  <!-- חריץ -->
-  <rect x="210" y="196" width="84" height="14" rx="7" fill="#c94b7a"/>
-  <!-- אף -->
-  <ellipse cx="102" cy="304" rx="38" ry="32" fill="#ff8fb5" stroke="#e86a96" stroke-width="5"/>
-  <circle cx="90" cy="304" r="7" fill="#c94b7a"/>
-  <circle cx="114" cy="304" r="7" fill="#c94b7a"/>
-  <!-- עין -->
-  <circle cx="160" cy="262" r="11" fill="#3a1d2c"/>
-  <circle cx="164" cy="258" r="4" fill="#fff"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb347"/><stop offset="1" stop-color="#ff6a3d"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g)"/>
+<circle cx="300" cy="150" r="58" fill="#ffe27a" stroke="#e0a800" stroke-width="8"/><text x="300" y="172" text-anchor="middle" font-family="Arial" font-weight="700" font-size="62" fill="#c48a00">₪</text>
+<rect x="96" y="190" width="320" height="220" rx="36" fill="#3b2a6b"/>
+<rect x="96" y="190" width="320" height="70" rx="36" fill="#4d3a86"/>
+<rect x="300" y="268" width="130" height="80" rx="24" fill="#2a1d50"/><circle cx="340" cy="308" r="16" fill="#ffd34d"/></svg>
